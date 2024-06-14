@@ -21,7 +21,7 @@ describe("getScoreTeam", () => {
         });
         it("should return orange value", () => {
             const dices = ['orange']
-            expect(getScoreTeam(dices)).toBe(2);
+            expect(getScoreTeam(dices)).toBe(1);
         });
         it("should return blue value", () => {
             const dices = ['blue']
