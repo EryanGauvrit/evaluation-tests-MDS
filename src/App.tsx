@@ -95,6 +95,16 @@ function App() {
         >
           =
         </button>
+        <button
+          className="btnClear"
+          onClick={() => {
+            updateCurrent(undefined);
+            updateChiffre(undefined);
+            updateOp(undefined);
+          }}
+        >
+          C
+        </button>
       </header>
     </div>
   );

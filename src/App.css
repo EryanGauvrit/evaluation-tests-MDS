@@ -8,3 +8,14 @@
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+.btnClear {
+    background-color: #0847ad;
+    border: 1px solid #0847ad;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
